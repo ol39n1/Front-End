@@ -200,5 +200,17 @@
 | ⸽      | Vertical Six Dots                    | U+2E3D    | Supplemental Punctuation              | Punctuation  |
 | ·      | North West Pointing Leaf Ornament    | U+1F650   | Ornamental Dingbats                   | Decorative   |
 | ¸      | South West Pointing Leaf Ornament    | U+1F651   | Ornamental Dingbats                   | Decorative   |
+| 🔴     | Large Red Circle                     | U+1F534   | Miscellaneous Symbols and Pictographs | Emoji        |
+| 🔵     | Large Blue Circle                    | U+1F535   | Miscellaneous Symbols and Pictographs | Emoji        |
 | 🟠     | Large Orange Circle                  | U+1F7E0   | Geometric Shapes Extended             | Geometric    |
+| 🟡     | Large Yellow Circle                  | U+1F7E1   | Geometric Shapes Extended             | Geometric    |
+| 🟢     | Large Green Circle                   | U+1F7E2   | Geometric Shapes Extended             | Geometric    |
+| 🟣     | Large Purple Circle                  | U+1F7E3   | Geometric Shapes Extended             | Geometric    |
+| 🟤     | Large Brown Circle                   | U+1F7E4   | Geometric Shapes Extended             | Geometric    |
 | 🟥     | Large Red Square                     | U+1F7E5   | Geometric Shapes Extended             | Geometric    |
+| 🟦     | Large Blue Square                    | U+1F7E6   | Geometric Shapes Extended             | Geometric    |
+| 🟧     | Large Orange Square                  | U+1F7E7   | Geometric Shapes Extended             | Geometric    |
+| 🟨     | Large Yellow Square                  | U+1F7E8   | Geometric Shapes Extended             | Geometric    |
+| 🟩     | Large Green Square                   | U+1F7E9   | Geometric Shapes Extended             | Geometric    |
+| 🟪     | Large Purple Square                  | U+1F7EA   | Geometric Shapes Extended             | Geometric    |
+| 🟫     | Large Brown Square                   | U+1F7EB   | Geometric Shapes Extended             | Geometric    |
