@@ -332,4 +332,47 @@ Implement similar checks on the client side:
 // Form validation example
 document.getElementById('username-form').addEventListener('submit', function(event) {
   const username = document.getElementById('username').value;
-  const normalized = username.normaliz
+  const normalized = username.normalize('NFKC');
+  
+  if (hasConfusableCharacters(normalized) || hasMixedScripts(normalized)) {
+    event.preventDefault();
+    showError('Username contains potentially confusing characters');
+  }
+});
+```
+
+## Additional Security Considerations
+
+### 1. Database Storage Considerations
+
+When storing Unicode text:
+
+- Store normalized forms consistently
+- Consider storing both original and normalized forms for security auditing
+- Ensure databases and collations support Unicode properly
+- Use the same normalization form for retrieval and comparison
+
+### 2. Security Headers and Policies
+
+Implement Content Security Policy (CSP) and other security headers to mitigate script injection risks.
+
+### 3. Regular Unicode Security Updates
+
+Stay updated with Unicode security vulnerabilities:
+
+- Monitor Unicode security notices
+- Update security libraries regularly
+- Adjust policies based on new discovered attack vectors
+
+## Conclusion
+
+Unicode security requires a multi-layered approach combining:
+
+1. Consistent normalization (preferably NFKC for security contexts)
+2. Script and character restrictions where appropriate
+3. Confusable detection and mixed-script detection
+4. Visual indicators for international text in sensitive contexts
+5. Control character sanitization
+6. Regular updates to security measures
+
+By implementing these best practices, web applications can safely support international text while mitigating the unique security risks posed by Unicode.
