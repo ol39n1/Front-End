@@ -71,7 +71,6 @@ A comprehensive guide to understanding and implementing Unicode in front-end dev
 ## Additional Resources
 
 * The Unicode Consortium: \[https://home.unicode.org/\](https://home.unicode.org/)
-* MDN Web Docs - Character encoding: \[https://developer.mozilla.org/en-US/docs/Web/HTML/ знать/Character\_encoding\](https://developer.mozilla.org/en-US/docs/Web/HTML/ знать/Character_encoding)
 * UTF-8 Everywhere: \[http://utf8everywhere.org/\](http://utf8everywhere.org/)
 * International Components for Unicode (ICU): \[https://icu.unicode.org/\](https://icu.unicode.org/)
 
